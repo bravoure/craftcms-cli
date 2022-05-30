@@ -4,4 +4,4 @@ LABEL "org.opencontainers.image.source"="https://github.com/bravoure/craftcms-cl
 
 USER root
 RUN apk add ffmpeg
-USER data-www
+USER www-data
